@@ -13,7 +13,19 @@ bool myarr( const double arr[], const double size)
 	}
 	cout << endl;
 	return true;
+	
+int main()
+{	
+	
+const int size = 5;
+double arr[] = { 1.2, 2.67, 3.14, 4.59 };
+if (myarr (arr, size)) 
+{
+	cout << "The array is ready" << endl;
 }
+	return 0;
+}
+
 
 }
 
