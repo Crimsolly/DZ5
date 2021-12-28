@@ -5,11 +5,11 @@ using namespace std;
 
 //task1 
 
-bool myarr(int arr[], int size)
+bool myarr(double arr[], double size)
 {
 	for (size_t i = 0; i < size ; i++)
 	{
-		cout << i << " ";
+		cout << arr[i] << " ";
 	}
 	cout << endl;
 	return true;
@@ -17,7 +17,7 @@ bool myarr(int arr[], int size)
 int main()
 {
 	const int size = 5;
-	int arr[] = { 1, 2, 3, 4 };
+	double arr[] = { 1, 2, 3, 4 };
 	if (myarr (arr, size)) 
 	{
 		cout << "The array is ready" << endl;
